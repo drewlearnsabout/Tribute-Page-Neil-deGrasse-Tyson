@@ -1,3 +1,7 @@
+.firsthalf {
+  background: linear-gradient(to bottom right, #cc0099 0%, #000099 100%);
+}
+
 h1, h6 {
   font-family: 'Lora', serif;
 }
@@ -7,4 +11,14 @@ img {
   display: block;
   width: 80%;
   border-radius: 100px;
+}
+
+h3 {
+  margin: 25px 0 25px 0;
+}
+
+.timeline {
+  margin: 25px 25px;
+  background: linear-gradient(to bottom right, #9DC8FF 0%, #840CE8 100%);
+  border-radius: 10px;
 }
