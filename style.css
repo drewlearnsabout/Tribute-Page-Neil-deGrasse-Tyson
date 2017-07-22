@@ -1,9 +1,18 @@
-.firsthalf {
-  background: linear-gradient(to bottom right, #cc0099 0%, #000099 100%);
+body {
+  background: linear-gradient(to bottom right, #9DC8FF 0%, #3333cc 100%);
+  max-width: 70%;
+  margin: auto;
 }
 
 h1, h6 {
+  color: #FFFFFF;
   font-family: 'Lora', serif;
+}
+
+.firsthalf {
+  background: linear-gradient(to bottom right, #9DC8FF 0%, #660066 100%);
+  padding: 15px 0 20px 0;
+  border-bottom: 2px solid gold;
 }
 
 img {
@@ -13,12 +22,36 @@ img {
   border-radius: 100px;
 }
 
+.secondhalf {
+  background: linear-gradient(to bottom right, #9DC8FF 0%, #660066 100%);
+  padding: 0 0 20px 0;
+}
+
 h3 {
-  margin: 25px 0 25px 0;
+  margin: 0 0 25px 0;
+  padding: 10px 0 0 0;
+  color: #E9FFED;
 }
 
 .timeline {
+  font-family: 'Lora', serif;
   margin: 25px 25px;
-  background: linear-gradient(to bottom right, #9DC8FF 0%, #840CE8 100%);
+  background: #ffffff;
+  opacity: 0.9;
   border-radius: 10px;
+}
+
+.quote {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+h4 {
+  color: #FFFFFF;
+}
+
+.wikipage {
+  font-family: 'Lora', serif;
+  text-align: center;
+  padding: 10px 0 0 0;
 }
